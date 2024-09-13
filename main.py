@@ -22,6 +22,9 @@ class Warrior():
         self.endurence -=1
     def info(self):
         print(f'имя воина {self.name}, \n'
-              f' сила воина {self.power}, \n'
+              f'сила воина {self.power}, \n'
               f'выносливость воина {self.endurence}, \n'
               f'цвет волос воина {self.hair_color}')
+
+war1 = Warrior('Степа', 10, 10, 'black')
+print(war1.info())
